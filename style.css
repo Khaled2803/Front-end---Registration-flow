@@ -12,7 +12,7 @@ body{
 .section-logo{
     display: flex;
     justify-content: end;
-    margin:100px 140px 100px 0;
+    margin:100px 140px 160px 0;
     gap: 15px;
 }
 
@@ -24,11 +24,19 @@ body{
 
 .section-two{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .section-two h1{
     font-size: 80px;
+    width: 600px;
     color: #42505C;
+}
+
+.section-two h4{
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+    color: #404040;
 }
