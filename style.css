@@ -18,13 +18,14 @@ body{
 
 .section-logo h4{
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 100;
     color: #4743E0;
+    text-decoration: none;
 }
 
 .section-two{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,8 +36,24 @@ body{
 }
 
 .section-two h4{
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 500;
-    width: 400px;
+    width: 500px;
     color: #404040;
+    line-height: 40px;
+}
+
+.section-two h4 a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px dashed #DDDDDD;
+    width: 70%;
+    margin: 100px 0 0 250px;
+    
 }
