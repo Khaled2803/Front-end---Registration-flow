@@ -6,7 +6,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .section-logo{
@@ -53,9 +54,9 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px dashed #DDDDDD;
-    width: 70%;
+    width: 65%;
     height: 70%; 
-    margin: 100px 0 100px 250px;
+    margin: 100px auto;
     
 }
 
@@ -63,7 +64,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    flex-wrap: wrap;
+    gap: 90px;
+    width: 70%;
+    margin: auto;
 }
 
 .formulario label{
@@ -78,10 +82,17 @@ body{
 
 .formulario input{
     height: 70px;
-    width: 500px;
+    width:100%;
     font-size: 23px;
     padding-left: 28px;
+    border:2px solid #DDDDDD;
 }
 
+.card-input{
+    width: 45%;
+}
 
-
+.input-name{
+    display: flex;
+    justify-content: space-between;
+}
