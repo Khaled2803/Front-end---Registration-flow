@@ -50,12 +50,14 @@ body{
     color: #4743E0;
 }
 
-button{
+.formulario-end button{
     width: 102px;
     height: 48px;
     border: none;
     background-color: #4743E0;
-    color: aliceblue;
-    font-weight: 600;
     margin-top: 60px;
+}
+
+.formulario-end h4{
+    color: aliceblue;
 }
