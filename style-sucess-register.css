@@ -50,7 +50,7 @@ body{
     color: #4743E0;
 }
 
-.formulario-end button{
+button{
     width: 102px;
     height: 48px;
     border: none;
@@ -58,6 +58,9 @@ body{
     margin-top: 60px;
 }
 
-.formulario-end h4{
-    color: aliceblue;
+button a{
+    font-weight: 600;
+    text-decoration: none;
+    color:aliceblue;
 }
+
