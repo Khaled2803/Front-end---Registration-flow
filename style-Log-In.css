@@ -2,3 +2,76 @@
     padding: 0;
     margin: 0;
 }
+
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.title h1{
+    display: flex;
+    font-size: 70px;
+    color: #42505C;
+    margin-bottom: 30px;
+}
+
+.title h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: #404040;
+    width: 400px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.divider{
+    border: 1px dashed #DDDDDD;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.account{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.account label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.account input{
+    width: 400px;
+    height: 60px;
+    color: #D1D1D1;
+    font-size: 18px;
+    border: none;
+}
+
+.input-username{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border:2px solid #D1D1D1;
+    width: 400px;
+    height: 60px;
+    gap: 18px;
+}
+
+.input-password{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border:2px solid #D1D1D1;
+    width: 400px;
+    height: 60px;
+    gap: 18px;
+}
+
